@@ -1,0 +1,35 @@
+body {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+.Grid {
+  height: 500px;
+  width: 500px;
+  display: flex;
+  flex-wrap: wrap;
+  margin: auto;
+}
+
+.options {
+  align-self: center;
+}
+
+/*#858481*/
+
+.Grid button {
+  height: 50px;
+  width: 50px;
+  border-style: solid;
+  /*border-color: black;*/
+  text-align: center;
+  font-size: xx-large;
+  display: block;
+  background-color: #e0ded7;
+}
+
+/*.bomb {
+  background-color: darkgray;
+}*/
+

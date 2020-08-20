@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/styles/mineSweeper.css" />
+    <title>Document</title>
+  </head>
+  <body onload="settings()">
+    <div class="options">
+      <button id="harvest" onclick="harvestClicked()">
+        <img src="./images/mine.jpg" alt="mine" height="35" width="35">
+      </button>
+      <button id="startAgain" onclick="location.reload()">
+        <img src="./images/happyFace.jpg" alt="again" height="35" width="35">
+      </button>
+      <button id="flag" onclick="flagClicked()">
+        <img src="./images/flag.png" alt="flagOption" height="35" width="35">
+      </button>
+    </div>
+    <div class="Grid"></div>
+    <script src="/scripts/square.js"></script>
+    <script src="/scripts/game.js"></script>
+  </body>
+</html>
